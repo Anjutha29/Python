@@ -1,1 +1,8 @@
-
+input1="HarY POTtrer was WRiTten By jK rowLIng"
+low_letter=""
+for char in input1:
+    if char.islower():
+        low_letter+=char
+count_lett=len(low_letter)
+t=low_letter,count_lett
+print(t)
