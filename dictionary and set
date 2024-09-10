@@ -1,0 +1,17 @@
+dictionary
+-used to store data values in key:value pairs
+
+nfo={
+    "key":"value",
+    "name":"anjutha",
+    "age":20,
+    'marks':[4,5,6,8,9]
+}
+print(info)
+print(info.keys())
+print(info.values())
+print(info.items())#give in terms of tuple
+print(info.get("name"))
+dict1={}
+dict1["name"]="anjutha"
+print(dict1)
