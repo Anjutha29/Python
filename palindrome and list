@@ -1,0 +1,19 @@
+#list
+movies=[]
+mov1=input("enter the 1st")
+mov2=input("enter the 2nd")
+mov3=input("enter the 3rd")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+
+#palindrome
+list2=[1,2,1]
+list3=[1,6,5]
+copy_list1=list2.copy()
+copy_list1.reverse()
+if(copy_list1==list2):
+    print("palindrome")
+else:
+    print("not palindrome")
