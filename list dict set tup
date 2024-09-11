@@ -13,5 +13,6 @@ for i,j in {'a':45,'ded':56}
   print(i,j)
 
 set{}-no duplicates,no index, unordered,do not allow mutable type of elements
-methods:add(ele add),update(add in bulk),pop(remove particular ele),remove(remove all)
-set operations:union()
+methods:add(ele add),update(add in bulk),pop(remove at last),remove(remove a particular ele)
+set operations:union(),intersection(),issubset(),issuperset(),difference
+set1.intersection(set2)
