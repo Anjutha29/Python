@@ -1,0 +1,17 @@
+list[]-mutable,contains different elements,allow indexing and duplicates
+methods:append(),extend(ele),count(ele),insert(),pop(index),remove(),index()
+
+tuple()-immutable,contains diff elemnts,allow indexing,slicing,duplicates
+no built in methods
+operations:concatination{ print(t1+t2)},iteration{repetations},membership operators(min(),max(),sum(),len()
+  identify operartion,repetition
+
+dictionary{}-key,value,key should have unique elements,key act as index,no slicing,key should be immutable,value should be mutable
+a={'a'[key]:1223[value],1:"abc"[item]}
+methods:get(keys),update(key:val),values(),keys(),items(both keys and vals)
+for i,j in {'a':45,'ded':56}
+  print(i,j)
+
+set{}-no duplicates,no index, unordered,do not allow mutable type of elements
+methods:add(ele add),update(add in bulk),pop(remove particular ele),remove(remove all)
+set operations:union()
