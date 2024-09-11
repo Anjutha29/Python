@@ -9,3 +9,22 @@ print(t)
 ///print suare of numbers
 sqre=[x**2 for x in range(1,11)]
 print(sqre)
+
+
+#lower
+str1="     please subscribe    "
+print(str1.lower())
+print(str1.upper())#upper
+print(str1.endswith('l'))#endswith T/F
+print(str1.startswith('p'))#startwith T/F
+print(str1.replace('e','@'))#replace
+print(str1.index("please"))#insex
+print(str1.find("anjutha"))#find
+print(str1.count('p'))#count
+print(str1.removeprefix("please"))#remove
+print(str1.removesuffix(" subscribe"))
+print(len(str1))#len
+s=str1.strip()#strip used to remove spaces at end and starting
+print(len(s))
+print(len(str1.lstrip()))#remove left spaces i.e to starting
+print(len(str1.rstrip()))#remove right spaces i.e at the end
