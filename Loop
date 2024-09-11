@@ -1,0 +1,37 @@
+-loop used to repeat the instructure
+#while condition:
+count=1
+while count<=5:
+    print("hi",i)
+    count+=1
+output=hi hi hi hi hi
+#i=1
+while i<=6:
+  print(i)
+i+=1
+output=1 2 3 4 5 6
+#count=100
+while count>=1:
+    print(count)
+    count-=1
+op-100 to 1
+//multiplication table of 4
+i=1
+while i<=10:
+    print(4*i)
+    i+=1
+#list to file
+num=[1,4,9,16,25,36,49,64,81,100]
+drama=["lovely runner","legend of the blue sea","monarch","2 worlds"]
+#idx=0#index=0
+#while idx<=len(num):
+    #print(num[idx])
+    #idx+=1
+i=0
+while i<len(drama):
+    print(drama[i])
+    i+=1
+##break-used to terminate the loop when encountered
+continue-terminates execution in the current iteration &continues execution of the loop
+with next generation
+
